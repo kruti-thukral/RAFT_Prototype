@@ -2,7 +2,7 @@ download pysyncobj using below
 pip3 install pysyncobj
 
 we are testing this using three servers running locally on various ports. We have a sample counter class which increments the counter by some value and it should be replicated on all servers. 
--During the run you can see that the state is getting on all servers
+-During the run you can see that the state is getting changes on all servers when one the leader increments the count
 -If you kill one server, there is a leader election which happens internally and other leader is elected which then continues incrementing the counter
 
 Our cluster has three servers running locally and which are expected to have the shared state
