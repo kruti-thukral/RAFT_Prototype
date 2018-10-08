@@ -16,5 +16,6 @@ Start server C running on port 2000 as below:
 python3 Raft_Prototype.py 2000 3000 4000
 
 Now when you kill serverA , in the logs of other servers, you can see other server elected as the leader
+So Above is an example of log replication and leader election
 
 
