@@ -46,13 +46,24 @@ if __name__ == '__main__':
         time.sleep(0.5)
         if o.getCounter() != old_value:
             old_value = o.getCounter()
-            print(old_value)
+            print('Current Counter value:', old_value)
         if o._getLeader() is None:
             continue
         # if n < 2000:
-        if n < 20:
-            o.addValue(10, n, callback=partial(onAdd, cnt=n))
+        if n < 20: 
+            # adding hardcoding for showcasing replication for better understandability
+            # Not needed
+            if (port == 2000):
+                o.addValue(10, n)
+                # o.addValue(10, n, callback=partial(onAdd, cnt=n))
+            # time.sleep(0.5)
+            # print('Update Counter by:', 10)
+            # o.addValue(10, n)
         n += 1
         if n % 20 == 0:
             if True:
-                print('Counter value:', o.getCounter(), o._getLeader(), o._getRaftLogSize())
+                print('===================================')
+                print('Server running on port:', port)
+                print('Current Counter value:', o.getCounter())
+                print('Current Leader running at address:', o._getLeader())
+                print('Current Log Size:', o._getRaftLogSize())
