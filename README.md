@@ -17,6 +17,14 @@ Raft is a consensus algorithm designed as an alternative to Paxos. It was meant 
 * During the presentation, gave a quick demo on a protoype using RAFT open source library
 * Played an active role in the Q & A session during the presentation
 
+## Sharwari Phadnis
+* Explored and researched the "Log Replication" aspect of RAFT in deep.
+* Worked on testing and verifying the prototype implemented for RAFT.
+* During the presentation, explained the Log Replication part of the RAFT that covered:
+  - RAFT Log Mechanism
+  - Replicated State Machines
+* Played an active role in the Q & A session during the presentation
+
 # How to run the prototype
 ## Dependencies:
 * python3
