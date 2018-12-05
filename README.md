@@ -44,6 +44,16 @@ Raft is a consensus algorithm designed as an alternative to Paxos. It was meant 
  - Presented the various kinds of possible use cases that can utilize the implementation of RAFT algorithm.
 * Played an active role in the Q & A session during the presentation
 
+## Janhavi Dahihande
+* Understood and dived deep into "Leader Election" part of RAFT consensus algorithm.
+* During presentation:
+  - Explained the need for leader election
+  - Explained the 3 states of nodes in the cluster
+  - Demonstarted the working of Leader Election process with an example
+  - Explained about the various scenarios affecting Leader Election (eg. Leader dead scenario, 2 nodes become candidates at the same time)
+  - Talked about the various challenges faced when electing the leader
+* Played an active role in the Q & A session during the presentation
+
 # How to run the prototype
 ## Dependencies:
 * python3
