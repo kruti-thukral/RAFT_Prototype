@@ -34,6 +34,16 @@ Raft is a consensus algorithm designed as an alternative to Paxos. It was meant 
   - Replicated State Machines
 * Played an active role in the Q & A session during the presentation
 
+## Nishtha Atrey
+* Worked on analyzing the requirements and identifying valid use cases for RAFT Algorithm.
+* Did a detailed study of how RAFT is better than any other consensus algorithm currently available, Eg:Paxos.
+* Worked on testing and verifying the prototype implemented for RAFT.
+* During the presentation:
+ - explained the basics of RAFT algorithm
+ - provided a contrast with Paxos and proved how RAFT is better.
+ - Presented the various kinds of possible use cases that can utilize the implementation of RAFT algorithm.
+* Played an active role in the Q & A session during the presentation
+
 # How to run the prototype
 ## Dependencies:
 * python3
