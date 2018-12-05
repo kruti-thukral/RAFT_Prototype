@@ -2,7 +2,7 @@
 ## Summary
 Raft is a consensus algorithm designed as an alternative to Paxos. It was meant to be more understandable than Paxos by means of separation of logic, but it is also formally proven safe and offers some additional features.Raft offers a generic way to distribute a state machine across a cluster of computing systems, ensuring that each node in the cluster agrees upon the same series of state transitions. It has a number of open-source reference implementations, with full-specification implementations in Go, C++, Java, and Scala. It is named after Reliable,Replicated,Redundant, And Fault-Tolerant.
 
-# Team
+# Team Members:
 * Sharwari Phadnis (012168884)
 * Janhavi DahiHande
 * Pratik Bhandarkar (013735748)
@@ -39,9 +39,9 @@ Raft is a consensus algorithm designed as an alternative to Paxos. It was meant 
 * Did a detailed study of how RAFT is better than any other consensus algorithm currently available, Eg:Paxos.
 * Worked on testing and verifying the prototype implemented for RAFT.
 * During the presentation:
- - explained the basics of RAFT algorithm
- - provided a contrast with Paxos and proved how RAFT is better.
- - Presented the various kinds of possible use cases that can utilize the implementation of RAFT algorithm.
+  - explained the basics of RAFT algorithm
+  - provided a contrast with Paxos and proved how RAFT is better.
+  - Presented the various kinds of possible use cases that can utilize the implementation of RAFT algorithm.
 * Played an active role in the Q & A session during the presentation
 
 ## Janhavi Dahihande
