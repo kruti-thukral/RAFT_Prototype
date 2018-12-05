@@ -4,7 +4,7 @@ Raft is a consensus algorithm designed as an alternative to Paxos. It was meant 
 
 # Team Members:
 * Sharwari Phadnis (012168884)
-* Janhavi DahiHande
+* Janhavi Dahihande (013732030)
 * Pratik Bhandarkar (013735748)
 * Kruti Thukral (012586041)
 * Nishtha Aatrey (013006292)
