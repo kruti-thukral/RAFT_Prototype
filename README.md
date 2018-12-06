@@ -9,6 +9,8 @@ Raft is a consensus algorithm designed as an alternative to Paxos. It was meant 
 * Kruti Thukral (012586041)
 * Nishtha Aatrey (013006292)
 
+# Link to the paper on which this prototype is based:
+https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14
 # Contributions by Team Members
 ## Kruti Thukral
 * Understood and researched on the various aspects of RAFT
