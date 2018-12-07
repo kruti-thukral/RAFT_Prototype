@@ -91,7 +91,7 @@ Thus in the above prototype, we saw a working example of log replication and lea
 
 ![GitHub Webhook](./Screenshots/ServerC.png)<br/><br/><br/>
 
-3. **Initial execution of counter increment on Server A with Port #2000**<br/><br/>
+3. **Initial execution of counter increment on Server C with Port #2000**<br/><br/>
 
 ![GitHub Webhook](./Screenshots/ServerA.png)<br/><br/><br/>
 
