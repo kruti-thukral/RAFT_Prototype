@@ -83,38 +83,38 @@ Thus in the above prototype, we saw a working example of log replication and lea
 
 # Demonstration of RAFT prototype:
 
-1. Initial execution of counter increment on Server A with Port #4000<br/><br/>
+1. **Initial execution of counter increment on Server A with Port #4000**<br/><br/>
 
-![GitHub Webhook](./Screenshots/ServerB.png)
+![GitHub Webhook](./Screenshots/ServerB.png)<br/><br/><br/>
 
-2. Initial execution of counter increment on Server B with Port #3000<br/><br/>
+2. **Initial execution of counter increment on Server B with Port #3000**<br/><br/>
 
 ![GitHub Webhook](./Screenshots/ServerC.png)<br/><br/><br/>
 
-3. Initial execution of counter increment on Server A with Port #2000<br/><br/>
+3. **Initial execution of counter increment on Server A with Port #2000**<br/><br/>
 
 ![GitHub Webhook](./Screenshots/ServerA.png)<br/><br/><br/>
 
-4. Initial Leader(Server A) is displayed on Server A<br/><br/>
+4. **Initial Leader(Server A) is displayed on Server A**<br/><br/>
 
 ![GitHub Webhook](./Screenshots/ShowLeaderOnServerA.png)<br/><br/><br/>
 
-5. Initial Leader(Server A) is displayed on Server B<br/><br/>
+5. **Initial Leader(Server A) is displayed on Server B**<br/><br/>
 
 ![GitHub Webhook](./Screenshots/ShowLeaderOnServerB.png)<br/><br/><br/>
 
-6. Initial Leader(Server A) is displayed on Server C<br/><br/>
+6. **Initial Leader(Server A) is displayed on Server C**<br/><br/>
 
 ![GitHub Webhook](./Screenshots/ShowLeaderOnServerC.png)<br/><br/><br/>
 
-7. Terminate Leader Server A to observe leader change on the other servers<br/><br/>
+7. **Terminate Leader Server A to observe leader change on the other servers**<br/><br/>
 
 ![GitHub Webhook](./Screenshots/KillServerA.png)<br/><br/><br/>
 
-8. Leader changed from Server A to Server B<br/><br/>
+8. **Leader changed from Server A to Server B**<br/><br/>
 
 ![GitHub Webhook](./Screenshots/ShowleaderChangeOnServerB.png)<br/><br/><br/>
 
-9. Leader changed from Server A to Server B<br/><br/>
+9. **Leader changed from Server A to Server B**<br/><br/>
 
 ![GitHub Webhook](./Screenshots/ShowleaderChangeOnServerC.png)<br/><br/><br/>
