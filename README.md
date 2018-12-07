@@ -9,14 +9,16 @@ Raft is a consensus algorithm designed as an alternative to Paxos. It was meant 
 * Kruti Thukral (012586041)
 * Nishtha Aatrey (013006292)
 
-# Link to the paper on which this prototype is based:
+# Link to the research paper:
 https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14
 # Contributions by Team Members
 ## Kruti Thukral
-* Understood and researched on the various aspects of RAFT
-* Worked on implementation of prototype using open soure python library 
-* During the presentation, talked on performance and optimizations in RAFT
-* During the presentation, gave a quick demo on a protoype using RAFT open source library
+* Understood and researched on the various issues addressed by RAFT
+* Worked on implementation of RAFT prototype using open soure python library 
+* During the presentation covered below topics
+  - Performance and optimizations in RAFT
+  - Concluding difference between RAFT and PAXOS
+  - Presented a demo on the protoype using RAFT open source library
 * Played an active role in the Q & A session during the presentation
 
 ## Pratik Bhandarkar
@@ -65,7 +67,7 @@ https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14
 Download pysyncobj using below
 pip3 install pysyncobj
 
-We are testing RAFT (Leader election and replication demo) using three servers running locally on various ports. We have a simple counter class which increments the counter by a specific value and it is seen to replicated on all servers. 
+We are testing RAFT (Leader election and replication demo) using three servers running locally on various ports. We have a simple counter class which increments the counter by a specific value and it is seen to be replicated on all servers. 
 - During the run, one can see that the state is getting changed on all servers when the leader increments the count
 - If one kills the server which happens to be the leader, there is a leader election which happens internally and another leader is elected which then continues incrementing the counter.
 
@@ -79,20 +81,20 @@ python3 Raft_Prototype.py 3000 4000 2000
 Start server C running on port 2000 as below:
 python3 Raft_Prototype.py 2000 3000 4000
 
-Now when you kill serverA , in the outout of other servers, you can see another server being elected as the leader
-Thus in the above prototype, we saw a working example of log replication and leader election
+Now when you kill serverA , in the output of other servers, you can see another server being elected as the leader.
+Thus in the above prototype, we saw a working example of log replication and leader election.
 
 # Demonstration of RAFT prototype:
 
-1. **Initial execution of counter increment on Server A with Port #4000**<br/><br/>
+1. **Counter state on Server A with Port #4000**<br/><br/>
 
 ![GitHub Webhook](./Screenshots/ServerB.png)<br/><br/><br/>
 
-2. **Initial execution of counter increment on Server B with Port #3000**<br/><br/>
+2. **Replicated counter state on Server B with Port #3000**<br/><br/>
 
 ![GitHub Webhook](./Screenshots/ServerC.png)<br/><br/><br/>
 
-3. **Initial execution of counter increment on Server C with Port #2000**<br/><br/>
+3. **Replicated counter state on Server C with Port #2000**<br/><br/>
 
 ![GitHub Webhook](./Screenshots/ServerA.png)<br/><br/><br/>
 
