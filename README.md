@@ -81,4 +81,40 @@ python3 Raft_Prototype.py 2000 3000 4000
 Now when you kill serverA , in the outout of other servers, you can see another server being elected as the leader
 Thus in the above prototype, we saw a working example of log replication and leader election
 
+# Demonstration of RAFT prototype:
 
+1. Initial execution of counter increment on Server A with Port #4000<br/><br/>
+
+![GitHub Webhook](./Screenshots/ServerB.png)
+
+2. Initial execution of counter increment on Server B with Port #3000<br/><br/>
+
+![GitHub Webhook](./Screenshots/ServerC.png)<br/><br/><br/>
+
+3. Initial execution of counter increment on Server A with Port #2000<br/><br/>
+
+![GitHub Webhook](./Screenshots/ServerA.png)<br/><br/><br/>
+
+4. Initial Leader(Server A) is displayed on Server A<br/><br/>
+
+![GitHub Webhook](./Screenshots/ShowLeaderOnServerA.png)<br/><br/><br/>
+
+5. Initial Leader(Server A) is displayed on Server B<br/><br/>
+
+![GitHub Webhook](./Screenshots/ShowLeaderOnServerB.png)<br/><br/><br/>
+
+6. Initial Leader(Server A) is displayed on Server C<br/><br/>
+
+![GitHub Webhook](./Screenshots/ShowLeaderOnServerC.png)<br/><br/><br/>
+
+7. Terminate Leader Server A to observe leader change on the other servers<br/><br/>
+
+![GitHub Webhook](./Screenshots/KillServerA.png)<br/><br/><br/>
+
+8. Leader changed from Server A to Server B<br/><br/>
+
+![GitHub Webhook](./Screenshots/ShowleaderChangeOnServerB.png)<br/><br/><br/>
+
+9. Leader changed from Server A to Server B<br/><br/>
+
+![GitHub Webhook](./Screenshots/ShowleaderChangeOnServerC.png)<br/><br/><br/>
