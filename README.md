@@ -29,11 +29,12 @@ https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14
 * Actively participated in the Q & A session during the presentation
 
 ## Sharwari Phadnis
-* Explored and researched the "Log Replication" aspect of RAFT in deep.
+* Explored and researched the "Log Replication" aspect of RAFT in detail.
 * Worked on testing and verifying the prototype implemented for RAFT.
 * During the presentation, explained the Log Replication part of the RAFT that covered:
   - RAFT Log Mechanism
   - Replicated State Machines
+  - Maintaining consistent Logs
 * Played an active role in the Q & A session during the presentation
 
 ## Nishtha Atrey
